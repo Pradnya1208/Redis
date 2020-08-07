@@ -1,0 +1,5 @@
+pip install redis-3.5.3-py3-none-any.whl
+pip install redis
+
+@redis-cli
+config set stop-writes-on-bgsave-error no
