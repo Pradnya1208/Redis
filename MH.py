@@ -18,7 +18,7 @@ req = requests.get(JSON_URL)
 distNames = df(req.json()['MH']['districts'])
 distNames = distNames.T
 
-# crreate a list of Districts in Maharashtra
+# create a list of Districts in Maharashtra
 for dis in distNames.index:
     dist_name.append(dis)
 
